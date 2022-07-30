@@ -1,0 +1,209 @@
+/*  ------------Reset CSS */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style-type: none;
+}
+
+@font-face {
+	font-family: 'rubik-light';
+	src: url('./assets/fonts/Rubik-Light.ttf');
+}
+
+@font-face {
+	font-family: 'rubik-regular';
+	src: url('./assets/fonts/Rubik-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'rubik-medium';
+	src: url('./assets/fonts/Rubik-Medium.ttf');
+}
+
+body {
+	background-color: #0d1323;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'rubik-light';
+	color: #f9ffff;
+}
+
+/*  ------------Link */
+a,
+a:visited {
+	text-decoration: none;
+	color: #7074b1;
+	font-size: 18px;
+	font-family: 'rubik-regular';
+}
+
+a:hover,
+li .active {
+	color: #f9ffff;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*  ------------Grid */
+
+.app {
+	height: 100%;
+	max-height: 665px;
+	width: 100%;
+	max-width: 1100px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 225px);
+	align-items: center;
+	grid-gap: 4em 1.5em;
+}
+
+/* ------------ReportUser */
+
+.report,
+.user-profile {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.report {
+	grid-column: 1/2;
+	grid-row: 1/3;
+	height: 100%;
+	background-color: #1d204b;
+	border-radius: 15px;
+	position: relative;
+}
+
+.user-profile {
+	height: 70%;
+	top: -40px;
+	background-color: #5746ea;
+	position: absolute;
+}
+
+.user-profile img {
+	width: 85px;
+	border: 2px solid white;
+	border-radius: 100%;
+}
+
+.report-for {
+	color: #bdc2ff;
+	margin: 40px 0 10px;
+	font-family: 'rubik-regular';
+}
+
+#firstNameUser,
+#lastNameUser {
+	display: block;
+	font-size: 2.5em;
+	font-weight: 100;
+}
+
+.user-profile,
+.report-menu {
+	padding: 35px 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.report-menu {
+	height: 100%;
+	justify-content: flex-end;
+}
+
+.report-menu li {
+	margin: 10px 0;
+}
+
+/* ------------BOXES */
+.container {
+	height: 100%;
+	width: 100%;
+    min-width: 250px;
+	background-color: #1d204b;
+	
+	border-radius: 15px;
+	position: relative;
+}
+.container:hover {
+	background-color: #34397b;
+	cursor: pointer;
+}
+
+/* ------------HeaderBOX */
+.categories {
+	height: 70px;
+	width: 100%;
+	z-index: -1;
+	top: -40px;
+	border-radius: 20px;
+	position: absolute;
+	display: flex;
+	justify-content: flex-end;
+	overflow: hidden;
+}
+
+.categories img {
+	margin-right: 20px;
+	position: absolute;
+	top: -10px;
+}
+
+/*  ------------InnerBOX */
+.container-content {
+	padding: 30px;
+	width: 100%;
+	height: 100%;
+}
+.container-content .title {
+	display: flex;
+	justify-content: space-between;
+}
+.container-content .title h4 {
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.container-content .title button {
+	background: none;
+	border: none;
+}
+.container-content .title i {
+	font-size: 2em;
+	color: #bdc2ff;
+}
+.container-content .title i:hover {
+	color: #f9ffff;
+	cursor: pointer;
+}
+.container-content .time {
+	display: block;
+	font-size: 3.6em;
+	font-weight: 100;
+	letter-spacing: 1px;
+	margin: 30px 0 15px;
+}
+
+.container-time{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-content p,
+.container-content .lastweek-time {
+	color: #bdc2ff;
+	font-family: 'rubik-regular';
+}
+
+/* @media screen and (max-width: 1150px) { */
