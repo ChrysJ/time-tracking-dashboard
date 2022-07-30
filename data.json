@@ -20,7 +20,7 @@
   },
   {
     "title": "Play",
-    "img":"assets/images/icon-Play.svg",
+    "img":"assets/images/icon-play.svg",
     "colors":"#56c2e6",
     "timeframes": {
       "daily": {
@@ -39,7 +39,7 @@
   },
   {
     "title": "Study",
-    "img":"assets/images/icon-Study.svg",
+    "img":"assets/images/icon-study.svg",
     "colors":"#ff5e7d",
     "timeframes": {
       "daily": {
@@ -58,7 +58,7 @@
   },
   {
     "title": "Exercise",
-    "img":"assets/images/icon-Exercise.svg",
+    "img":"assets/images/icon-exercise.svg",
     "colors":"#4bcf83",
     "timeframes": {
       "daily": {
@@ -77,7 +77,7 @@
   },
   {
     "title": "Social",
-    "img":"assets/images/icon-Social.svg",
+    "img":"assets/images/icon-social.svg",
     "colors":"#7235d1",
     "timeframes": {
       "daily": {

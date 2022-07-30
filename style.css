@@ -62,7 +62,7 @@ main{
 	width: 100%;
 	max-width: 1100px;
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 225px);
 	align-items: center;
 	grid-gap: 4em 1.5em;
@@ -74,6 +74,7 @@ main{
 .user-profile {
 	width: 100%;
 	border-radius: 15px;
+
 }
 
 .report {
@@ -128,15 +129,25 @@ main{
 }
 
 /* ------------BOXES */
+.container-boxes{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 225px);
+	grid-gap: 4em 1.5em;
+	justify-content: center;
+	margin: auto;
+}
+
+
 .container {
 	height: 100%;
 	width: 100%;
     min-width: 250px;
 	background-color: #1d204b;
-	
 	border-radius: 15px;
 	position: relative;
 }
+
 .container:hover {
 	background-color: #34397b;
 	cursor: pointer;
